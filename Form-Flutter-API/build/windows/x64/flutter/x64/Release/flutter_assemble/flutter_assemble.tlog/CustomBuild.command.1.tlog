@@ -1,0 +1,28 @@
+^C:\USERS\KEURY\DESKTOP\FORM-FLUTTER-API\FORM-FLUTTER-API\BUILD\WINDOWS\X64\CMAKEFILES\8458730F5A1DAACCE83C27AF08704872\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\Keury\Desktop\Form-Flutter-API\Form-Flutter-API FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Keury\Desktop\Form-Flutter-API\Form-Flutter-API\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Keury\Desktop\Form-Flutter-API\Form-Flutter-API FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\Keury\Desktop\Form-Flutter-API\Form-Flutter-API\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KEURY\DESKTOP\FORM-FLUTTER-API\FORM-FLUTTER-API\BUILD\WINDOWS\X64\CMAKEFILES\F6D8DBD5B56EE7BBEEBC61C657B6BED8\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KEURY\DESKTOP\FORM-FLUTTER-API\FORM-FLUTTER-API\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Keury/Desktop/Form-Flutter-API/Form-Flutter-API/windows -BC:/Users/Keury/Desktop/Form-Flutter-API/Form-Flutter-API/build/windows/x64 --check-stamp-file C:/Users/Keury/Desktop/Form-Flutter-API/Form-Flutter-API/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
