@@ -10,27 +10,44 @@
 # 🗝 How to use it  
 You just have to download the zip file that is at the beginning of this repository, and open the folder in Visual Studio Code, once there a terminal opens and you type "Flutter run -d Edge", this will start loading commands allowing you to visualize the project in the Edge browser.
 
+# 🎈 Installation  
+Clone the repository:  
+   ```bash  
+   git clone https://github.com/K3ury99/Form-Flutter-API
+   ```
+# 🎯 Usage
+To run the app, use the following command:
+```bash
+flutter run -d Edge
+```
+
 # ✨ Features
-
-✅ Form handling with validation
-
-✅ User input validation with custom functions
-
-✅ Organized structure with services and models
-
-✅ Modern UI using Flutter Material
-
-✅ Easy-to-read and maintainable code
+✅ Form handling with validation  
+✅ User input validation with custom functions  
+✅ Organized structure with services and models  
+✅ Modern UI using Flutter Material  
+✅ Easy-to-read and maintainable code  
 
 # 🐱‍👤 Contributing
 1. **Fork the repo**
 - **Create a new branch**
    
-bash
+```bash
    git checkout -b feature-branch
+```
+- **Add Everything**
+```bash
+  git add .
+```
 - **Commit changes**
-bash
+```bash
   git commit -am 'Add new feature'
+```
+- **Pull & push to the origin**
+```bash
+  git pull
+  git push
+```
 
 # 🌠 Final Notes
 Thank you for visiting this project!🌌
